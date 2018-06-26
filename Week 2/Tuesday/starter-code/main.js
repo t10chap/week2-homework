@@ -3,8 +3,6 @@
 	Write a for-loop that will print each of the elements to the console.
 */
 
-console.log('Working');
-
 var ages = [28, 30, 17, 14, 12, 20, 13, 36, 68, 49, 37, 55, 56, 26];
 
 for(i = 0; i < ages.length; i++){
@@ -78,35 +76,35 @@ while(i != 0){
 
 	Hint: Using a "switch" statement might result in cleaner code
 */
-//
-// function getDayOfWeek(x){
-//   switch (x) {
-//     case 0:
-//       return "Sunday"
-//       break;
-//     case 1:
-//       return "Monday"
-//       break;
-//     case 2:
-//       return "Tuesday"
-//       break;
-//     case 3:
-//       return "Wednesday"
-//       break;
-//     case 4:
-//       return "Thursday"
-//       break;
-//     case 5:
-//       return "Friday"
-//       break;
-//     case 6:
-//       return "Saturday"
-//       break;
-//     default:
-//       break;
-//
-//   }
-// }
+
+function getDayOfWeek(x){
+  switch (x) {
+    case 0:
+      return "Sunday"
+      break;
+    case 1:
+      return "Monday"
+      break;
+    case 2:
+      return "Tuesday"
+      break;
+    case 3:
+      return "Wednesday"
+      break;
+    case 4:
+      return "Thursday"
+      break;
+    case 5:
+      return "Friday"
+      break;
+    case 6:
+      return "Saturday"
+      break;
+    default:
+      break;
+
+  }
+}
 
 /*
 	Bonus - Part 6: All this work is making me hungry. Let's create a new function, addPepperoniToPizza,
