@@ -40,8 +40,8 @@ console.log(younger);
 	Hint: What would the conditional for your for-loop look like?
 */
 
-for(i = younger.length; i > 0; i--){
-  console.log(younger[i-1]);
+for(i = younger.length - 1; i >= 0; i--){
+  console.log(younger[i]);
 }
 
 /*

@@ -1,0 +1,48 @@
+body{
+  font-family: 'Shrikhand';
+}
+
+.container{
+  background-image: url('./images/earth.jpg');
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+}
+header{
+  text-align: center;
+}
+h1{
+  color: red;
+  background-color: rgba(255,255,255,.7);
+}
+
+#flash-instructions{
+  float: left;
+  margin-left: 20px;
+}
+
+#superman-instructions{
+  float: right;
+  margin-right: 20px;
+}
+
+#race{
+    margin-top: 90px;
+}
+
+div #flash{
+  background: url('./images/flash.png') top center no-repeat;
+  background-size: contain;
+  margin-top: auto;
+  width: 100px;
+  height: 150px;
+}
+
+div #superman{
+  background: url('./images/superman.png') top center no-repeat;
+  background-size: contain;
+  margin-top: 80px;
+  width: 100px;
+  height: 150px;
+}
