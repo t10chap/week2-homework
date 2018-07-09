@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+
+<html lang = "en">
+  <head>
+      <meta charset="utf-8">
+<!-- Links stylesheet -->
+      <link rel="stylesheet" href="style.css">
+  </head>
+
+<!-- Contains Body For Flexbox -->
+  <div id="pageContainer">
+    <body>
+
+<!-- Heading/ Navigation Bar -->
+      <nav id="headingContainer">
+        <h1>Welcome</h1>
+        <div id= "navbar">
+          <a href="#aboutMe">About</a>
+          <a href="#projects">Portfolio</a>
+          <a href="#testimonials">Testimonials</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </nav>
+
+<!-- Introduction/ About Me -->
+      <div id="introBox">
+        <img id="myImage" src="">
+        <h1>Tevin Rawls</h1>
+        <h3>Web Developer</h3>
+        <h2>About Me</h2>
+        <div id = "aboutMeBox">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vel ipsum felis. Proin sit amet elit imperdiet, dignissim purus id, maximus nisl. Etiam iaculis purus non ipsum vehicula blandit in eget ante.
+            Donec vestibulum dapibus felis, vitae aliquet risus efficitur posuere. Praesent mattis, arcu at gravida dignissim, lorem eros feugiat sapien, id viverra mi ante non ligula. In molestie elementum purus sed cursus.
+            Quisque molestie velit sollicitudin, luctus mi ut, pharetra dolor. Suspendisse felis nulla, posuere a congue in, placerat eget nunc. Etiam at gravida felis. Sed libero odio, cursus non augue et, mollis mattis nisi. Duis placerat diam non ullamcorper lobortis. In hac habitasse platea dictumst. Mauris nunc urna, posuere eget pharetra in, vehicula vel nisl. Nam tincidunt est diam, vel ornare nunc suscipit eget. Aliquam molestie facilisis nisi ut fermentum. Phasellus sed lectus massa. Sed accumsan posuere ornare. Praesent pretium turpis sed dui venenatis elementum. Sed maximus, diam auctor rutrum rutrum, diam tellus ornare purus, auctor bibendum nunc dui ut tellus.
+          </p>
+        </div>
+      </div>
+
+<!-- Project Box With Rotating Picture -->
+      <div id = "projectsBox">
+        <h2>Projects</h2>
+        <img id="rotatingPicture" src="">
+      </div>
+
+<!-- Testimonial Box With Transitioning Quote -->
+      <div id="testimonialsBox">
+        <h2>Testimonials</h2>
+        <div id="timedText">
+          <p id ="quote">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam imperdiet nibh cursus quam fermentum, ac scelerisque nibh ornare. Nulla vehicula nec odio vitae auctor. Sed vel augue urna. Nam interdum felis nisi, sit amet tempus elit finibus at.
+            Vivamus tincidunt eros ac quam varius, vel vehicula massa gravida. Fusce placerat eros et dolor euismod, at congue tellus ultrices. Aenean consequat lobortis dignissim. Proin ut lobortis nisi, iaculis efficitur mauris.
+          </p>
+          <p id ="author">Author</p>
+        </div>
+      </div>
+
+<!-- Contact Me Box With Working Submissions Inputs -->
+      <div id="contactMeBox">
+        <form action="/contact.php" method="post">
+          <h1>Contact Me</h1>
+
+
+          <label>Name</label>
+          <input id="name" name="name" placeholder="Name...">
+
+          <label>Email Address</label>
+          <input id="emailAddress" name="emailaddress" placeholder="Email Address...">
+
+          <label>Phone Number</label>
+          <input id="phoneNumber" name="phonenumber" placeholder="Phone Number...">
+
+          <label>Message</label>
+          <textarea id="message" name="message" placeholder="Message..."></textarea>
+        </form>
+      </div>
+
+
+    <script src="./main.js"></script>
+    </body>
+  </div>
+</html>
